@@ -1,7 +1,7 @@
 # firstly Install the requirements as 
  # Requirements                 url
  - python                       https://www.python.org/downloads/
- - django                       pip install django
+ - For django Installation      pip install django
  - django-import-export         pip install django-import-export
 
 
