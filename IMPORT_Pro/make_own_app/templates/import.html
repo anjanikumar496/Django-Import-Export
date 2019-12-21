@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="myfile">
+    <button type="submit">Upload</button>
+  </form>
+
+
+<a href="{% url 'file_export' %}">Exporting Files</a><br>
+<a href="{% url 'data_set_filter' %}">filter the Data as You Want Using The </a>
+
+</body>
+</html>
